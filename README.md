@@ -68,11 +68,3 @@ Before submitting, confirm the following locally:
 - => Error toast shown on API failure
 - => Unit tests pass (`npm run test`)
 
-## Deploy to Netlify
-
-1. Push your repo to GitHub.
-2. On Netlify, click "New site from Git" and connect your GitHub repo.
-3. Set build command: `npm run build` and publish directory: `dist`.
-4. Optionally set environment variables or branch deploys.
-
-Netlify will run the build and deploy automatically.
