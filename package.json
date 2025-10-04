@@ -1,0 +1,37 @@
+{
+  "name": "aiac-artworks-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Art Institute of Chicago artworks table using Vite + React + TypeScript and PrimeReact",
+  "author": "",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md}\""
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "primeflex": "^3.2.1",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.24",
+    "@types/react-dom": "^18.2.8",
+    "@vitejs/plugin-react": "^5.0.4",
+    "typescript": "^5.5.0",
+    "vite": "^5.1.0",
+    "vitest": "^1.0.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "prettier": "^2.8.8"
+  }
+}

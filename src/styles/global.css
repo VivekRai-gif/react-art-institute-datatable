@@ -1,0 +1,53 @@
+body {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  margin: 0;
+  padding: 0;
+  background: #f7f9fc;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.p-4 { padding: 1rem }
+.mb-4 { margin-bottom: 1rem }
+.text-2xl { font-size: 1.5rem }
+
+/* Table row striping & hover to match the provided screenshot feel */
+.p-datatable .p-datatable-tbody > tr:nth-child(odd) {
+  background: #eaf6ff; /* subtle blue-ish */
+}
+.p-datatable .p-datatable-tbody > tr:hover {
+  background: #eaf6ff !important;
+}
+
+/* Right aligned checkboxes column spacing */
+.p-datatable .p-datatable-tbody td {
+  vertical-align: middle;
+}
+.p-datatable .p-datatable-tbody td input[type="checkbox"] {
+  transform: scale(1.05);
+  margin-right: 0;
+}
+
+/* Highlight selected rows (when DataTable applies p-highlight) */
+.p-datatable .p-datatable-tbody > tr.p-highlight {
+  background-color: #bfefff !important;
+  transition: background-color 120ms ease-in-out;
+}
+
+/* Make rows look clickable */
+.p-datatable .p-datatable-tbody > tr {
+  cursor: pointer;
+}
+
+/* Selected panel tweaks */
+.surface-card {
+  background: #ffffff;
+  border-radius: 6px;
+}
+.p-shadow-2 {
+  box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+}
+.ml-2 { margin-left: 0.5rem }
+.p-inputgroup .p-button { border-top-left-radius: 0; border-bottom-left-radius: 0 }
